@@ -1,0 +1,20 @@
+
+:root {
+    --rtc-color-1: rgb(222, 181, 233);
+    --rtc-color-2: rgb(183, 233, 205);
+    --rtc-color-3: rgb(90, 72, 102);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .showme{
+    background-color: var(--rtc-color-2);
+    color: var(--rtc-color-3);
+    border-color: var(--rtc-color-1);
+    border-radius: 10px;
+
+  }
